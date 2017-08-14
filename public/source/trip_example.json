@@ -1,0 +1,142 @@
+// TRIP //
+{
+                "LegList": {
+                    "Leg": [
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400104514",
+                                "lat": "59.305703",
+                                "lon": "18.025601",
+                                "name": "Årstadal",
+                                "time": "11:14",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALK%26startx%3D18034905%26starty%3D59306027%26endx%3D18025601%26endy%3D59305703%26dt%3D2017-02-05T11%3A05%26h%3D6ec6bcc3bfe78b2576c758f0532107c7%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "lat": "59.306027",
+                                "lon": "18.034905",
+                                "name": "Argångsgatan",
+                                "time": "11:05",
+                                "type": "ADR"
+                            },
+                            "dist": "679",
+                            "idx": "0",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400104512",
+                                "lat": "59.299024",
+                                "lon": "18.029988",
+                                "name": "Årstaberg",
+                                "routeIdx": "7",
+                                "time": "11:16",
+                                "track": "2",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D548796%2F186836%2F435292%2F34721%2F74%26startIdx%3D6%26endIdx%3D7%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D548796%2F186836%2F435292%2F34721%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400104514%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400104514",
+                                "lat": "59.305703",
+                                "lon": "18.025601",
+                                "name": "Årstadal",
+                                "routeIdx": "6",
+                                "time": "11:14",
+                                "track": "2",
+                                "type": "ST"
+                            },
+                            "dir": "Sickla udde",
+                            "idx": "1",
+                            "line": "22",
+                            "name": "Tvärbanan 22",
+                            "type": "TRAM"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400105135",
+                                "lat": "59.299339",
+                                "lon": "18.027570",
+                                "name": "Årstaberg",
+                                "time": "11:20",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALKLINK%26startx%3D18029988%26starty%3D59299024%26endx%3D18027570%26endy%3D59299339%26dt%3D2017-02-05T11%3A17%26h%3D20dd46b483e7c4c8799e0c27fab2c37e%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400104512",
+                                "lat": "59.299024",
+                                "lon": "18.029988",
+                                "name": "Årstaberg",
+                                "time": "11:17",
+                                "type": "ST"
+                            },
+                            "dist": "142",
+                            "hide": "true",
+                            "idx": "2",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400105012",
+                                "lat": "59.329614",
+                                "lon": "18.057926",
+                                "name": "Stockholms central",
+                                "routeIdx": "12",
+                                "time": "11:29",
+                                "track": "15",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D726156%2F246608%2F437944%2F23080%2F74%26startIdx%3D10%26endIdx%3D12%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D726156%2F246608%2F437944%2F23080%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400105135%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400105135",
+                                "lat": "59.299339",
+                                "lon": "18.027570",
+                                "name": "Årstaberg",
+                                "routeIdx": "10",
+                                "time": "11:22",
+                                "track": "3",
+                                "type": "ST"
+                            },
+                            "dir": "Märsta",
+                            "idx": "3",
+                            "line": "36",
+                            "name": "Tåg 36",
+                            "type": "TRAIN"
+                        }
+                    ]
+                },
+                "PriceInfo": {
+                    "TariffRemark": {
+                        "$": "SL"
+                    },
+                    "TariffZones": {
+                        "$": "SL"
+                    }
+                },
+                "chg": "1",
+                "co2": "0.00",
+                "dur": "24"
+            }

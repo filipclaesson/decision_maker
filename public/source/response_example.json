@@ -1,0 +1,734 @@
+// RESPONSE //
+{
+    "TripList": {
+        "Trip": [
+            {
+                "LegList": {
+                    "Leg": [
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400104514",
+                                "lat": "59.305703",
+                                "lon": "18.025601",
+                                "name": "Årstadal",
+                                "time": "11:14",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALK%26startx%3D18034905%26starty%3D59306027%26endx%3D18025601%26endy%3D59305703%26dt%3D2017-02-05T11%3A05%26h%3D6ec6bcc3bfe78b2576c758f0532107c7%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "lat": "59.306027",
+                                "lon": "18.034905",
+                                "name": "Argångsgatan",
+                                "time": "11:05",
+                                "type": "ADR"
+                            },
+                            "dist": "679",
+                            "idx": "0",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400104512",
+                                "lat": "59.299024",
+                                "lon": "18.029988",
+                                "name": "Årstaberg",
+                                "routeIdx": "7",
+                                "time": "11:16",
+                                "track": "2",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D548796%2F186836%2F435292%2F34721%2F74%26startIdx%3D6%26endIdx%3D7%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D548796%2F186836%2F435292%2F34721%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400104514%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400104514",
+                                "lat": "59.305703",
+                                "lon": "18.025601",
+                                "name": "Årstadal",
+                                "routeIdx": "6",
+                                "time": "11:14",
+                                "track": "2",
+                                "type": "ST"
+                            },
+                            "dir": "Sickla udde",
+                            "idx": "1",
+                            "line": "22",
+                            "name": "Tvärbanan 22",
+                            "type": "TRAM"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400105135",
+                                "lat": "59.299339",
+                                "lon": "18.027570",
+                                "name": "Årstaberg",
+                                "time": "11:20",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALKLINK%26startx%3D18029988%26starty%3D59299024%26endx%3D18027570%26endy%3D59299339%26dt%3D2017-02-05T11%3A17%26h%3D20dd46b483e7c4c8799e0c27fab2c37e%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400104512",
+                                "lat": "59.299024",
+                                "lon": "18.029988",
+                                "name": "Årstaberg",
+                                "time": "11:17",
+                                "type": "ST"
+                            },
+                            "dist": "142",
+                            "hide": "true",
+                            "idx": "2",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400105012",
+                                "lat": "59.329614",
+                                "lon": "18.057926",
+                                "name": "Stockholms central",
+                                "routeIdx": "12",
+                                "time": "11:29",
+                                "track": "15",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D726156%2F246608%2F437944%2F23080%2F74%26startIdx%3D10%26endIdx%3D12%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D726156%2F246608%2F437944%2F23080%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400105135%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400105135",
+                                "lat": "59.299339",
+                                "lon": "18.027570",
+                                "name": "Årstaberg",
+                                "routeIdx": "10",
+                                "time": "11:22",
+                                "track": "3",
+                                "type": "ST"
+                            },
+                            "dir": "Märsta",
+                            "idx": "3",
+                            "line": "36",
+                            "name": "Tåg 36",
+                            "type": "TRAIN"
+                        }
+                    ]
+                },
+                "PriceInfo": {
+                    "TariffRemark": {
+                        "$": "SL"
+                    },
+                    "TariffZones": {
+                        "$": "SL"
+                    }
+                },
+                "chg": "1",
+                "co2": "0.00",
+                "dur": "24"
+            },
+            {
+                "LegList": {
+                    "Leg": [
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400114131",
+                                "lat": "59.309919",
+                                "lon": "18.025745",
+                                "name": "Liljeholmen",
+                                "time": "11:18",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALK%26startx%3D18034905%26starty%3D59306027%26endx%3D18025745%26endy%3D59309919%26dt%3D2017-02-05T11%3A05%26h%3Da556df3091ba11c492b86ba3050ffebe%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "lat": "59.306027",
+                                "lon": "18.034905",
+                                "name": "Argångsgatan",
+                                "time": "11:05",
+                                "type": "ADR"
+                            },
+                            "dist": "995",
+                            "idx": "0",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400102601",
+                                "lat": "59.310737",
+                                "lon": "18.023183",
+                                "name": "Liljeholmen",
+                                "time": "11:20",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALKLINK%26startx%3D18025745%26starty%3D59309919%26endx%3D18023183%26endy%3D59310737%26dt%3D2017-02-05T11%3A18%26h%3D1c6b8f704a2adc10d6eb4fb5d8d593c1%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400114131",
+                                "lat": "59.309919",
+                                "lon": "18.025745",
+                                "name": "Liljeholmen",
+                                "time": "11:18",
+                                "type": "ST"
+                            },
+                            "dist": "172",
+                            "hide": "true",
+                            "idx": "1",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400101051",
+                                "lat": "59.331358",
+                                "lon": "18.061477",
+                                "name": "T-Centralen",
+                                "routeIdx": "9",
+                                "time": "11:30",
+                                "track": "3",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D137418%2F48136%2F682896%2F295645%2F74%26startIdx%3D3%26endIdx%3D9%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D137418%2F48136%2F682896%2F295645%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400102601%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400102601",
+                                "lat": "59.310737",
+                                "lon": "18.023183",
+                                "name": "Liljeholmen",
+                                "routeIdx": "3",
+                                "time": "11:20",
+                                "track": "1",
+                                "type": "ST"
+                            },
+                            "RTUMessages": {
+                                "RTUMessage": {
+                                    "$": "Nybohovs hissen vid station Liljeholmen är ur funktion. Bussar ersätter från hållplats U vid Liljeholmstorget."
+                                }
+                            },
+                            "dir": "Mörby centrum",
+                            "idx": "2",
+                            "line": "14",
+                            "name": "tunnelbanans röda linje 14",
+                            "type": "METRO"
+                        }
+                    ]
+                },
+                "PriceInfo": {
+                    "TariffRemark": {
+                        "$": "SL"
+                    },
+                    "TariffZones": {
+                        "$": "SL"
+                    }
+                },
+                "chg": "0",
+                "co2": "0.00",
+                "dur": "25"
+            },
+            {
+                "LegList": {
+                    "Leg": [
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400114131",
+                                "lat": "59.309919",
+                                "lon": "18.025745",
+                                "name": "Liljeholmen",
+                                "time": "11:21",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALK%26startx%3D18034905%26starty%3D59306027%26endx%3D18025745%26endy%3D59309919%26dt%3D2017-02-05T11%3A08%26h%3Da556df3091ba11c492b86ba3050ffebe%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "lat": "59.306027",
+                                "lon": "18.034905",
+                                "name": "Argångsgatan",
+                                "time": "11:08",
+                                "type": "ADR"
+                            },
+                            "dist": "995",
+                            "idx": "0",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400102603",
+                                "lat": "59.310710",
+                                "lon": "18.023093",
+                                "name": "Liljeholmen",
+                                "time": "11:23",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALKLINK%26startx%3D18025745%26starty%3D59309919%26endx%3D18023093%26endy%3D59310710%26dt%3D2017-02-05T11%3A21%26h%3Dd8dcdfcc1e972bb73f796505e7110c0f%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400114131",
+                                "lat": "59.309919",
+                                "lon": "18.025745",
+                                "name": "Liljeholmen",
+                                "time": "11:21",
+                                "type": "ST"
+                            },
+                            "dist": "174",
+                            "hide": "true",
+                            "idx": "1",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400101051",
+                                "lat": "59.331358",
+                                "lon": "18.061477",
+                                "name": "T-Centralen",
+                                "routeIdx": "11",
+                                "time": "11:33",
+                                "track": "3",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D739026%2F248639%2F672524%2F89922%2F74%26startIdx%3D5%26endIdx%3D11%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D739026%2F248639%2F672524%2F89922%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400102603%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400102603",
+                                "lat": "59.310710",
+                                "lon": "18.023093",
+                                "name": "Liljeholmen",
+                                "routeIdx": "5",
+                                "time": "11:23",
+                                "track": "2",
+                                "type": "ST"
+                            },
+                            "RTUMessages": {
+                                "RTUMessage": {
+                                    "$": "Nybohovs hissen vid station Liljeholmen är ur funktion. Bussar ersätter från hållplats U vid Liljeholmstorget."
+                                }
+                            },
+                            "dir": "Mörby centrum",
+                            "idx": "2",
+                            "line": "14",
+                            "name": "tunnelbanans röda linje 14",
+                            "type": "METRO"
+                        }
+                    ]
+                },
+                "PriceInfo": {
+                    "TariffRemark": {
+                        "$": "SL"
+                    },
+                    "TariffZones": {
+                        "$": "SL"
+                    }
+                },
+                "chg": "0",
+                "co2": "0.00",
+                "dur": "25"
+            },
+            {
+                "LegList": {
+                    "Leg": [
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400114131",
+                                "lat": "59.309919",
+                                "lon": "18.025745",
+                                "name": "Liljeholmen",
+                                "time": "11:24",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALK%26startx%3D18034905%26starty%3D59306027%26endx%3D18025745%26endy%3D59309919%26dt%3D2017-02-05T11%3A11%26h%3Da556df3091ba11c492b86ba3050ffebe%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "lat": "59.306027",
+                                "lon": "18.034905",
+                                "name": "Argångsgatan",
+                                "time": "11:11",
+                                "type": "ADR"
+                            },
+                            "dist": "995",
+                            "idx": "0",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400102601",
+                                "lat": "59.310737",
+                                "lon": "18.023183",
+                                "name": "Liljeholmen",
+                                "time": "11:26",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALKLINK%26startx%3D18025745%26starty%3D59309919%26endx%3D18023183%26endy%3D59310737%26dt%3D2017-02-05T11%3A24%26h%3D1c6b8f704a2adc10d6eb4fb5d8d593c1%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400114131",
+                                "lat": "59.309919",
+                                "lon": "18.025745",
+                                "name": "Liljeholmen",
+                                "time": "11:24",
+                                "type": "ST"
+                            },
+                            "dist": "172",
+                            "hide": "true",
+                            "idx": "1",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400101051",
+                                "lat": "59.331358",
+                                "lon": "18.061477",
+                                "name": "T-Centralen",
+                                "routeIdx": "20",
+                                "time": "11:36",
+                                "track": "3",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D326328%2F110813%2F790130%2F286293%2F74%26startIdx%3D14%26endIdx%3D20%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D326328%2F110813%2F790130%2F286293%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400102601%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400102601",
+                                "lat": "59.310737",
+                                "lon": "18.023183",
+                                "name": "Liljeholmen",
+                                "routeIdx": "14",
+                                "time": "11:26",
+                                "track": "1",
+                                "type": "ST"
+                            },
+                            "RTUMessages": {
+                                "RTUMessage": {
+                                    "$": "Nybohovs hissen vid station Liljeholmen är ur funktion. Bussar ersätter från hållplats U vid Liljeholmstorget."
+                                }
+                            },
+                            "dir": "Ropsten",
+                            "idx": "2",
+                            "line": "13",
+                            "name": "tunnelbanans röda linje 13",
+                            "type": "METRO"
+                        }
+                    ]
+                },
+                "PriceInfo": {
+                    "TariffRemark": {
+                        "$": "SL"
+                    },
+                    "TariffZones": {
+                        "$": "SL"
+                    }
+                },
+                "chg": "0",
+                "co2": "0.00",
+                "dur": "25"
+            },
+            {
+                "LegList": {
+                    "Leg": [
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400104514",
+                                "lat": "59.305703",
+                                "lon": "18.025601",
+                                "name": "Årstadal",
+                                "time": "11:24",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALK%26startx%3D18034905%26starty%3D59306027%26endx%3D18025601%26endy%3D59305703%26dt%3D2017-02-05T11%3A15%26h%3D6ec6bcc3bfe78b2576c758f0532107c7%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "lat": "59.306027",
+                                "lon": "18.034905",
+                                "name": "Argångsgatan",
+                                "time": "11:15",
+                                "type": "ADR"
+                            },
+                            "dist": "679",
+                            "idx": "0",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400104512",
+                                "lat": "59.299024",
+                                "lon": "18.029988",
+                                "name": "Årstaberg",
+                                "routeIdx": "7",
+                                "time": "11:26",
+                                "track": "2",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D186399%2F66037%2F635592%2F255671%2F74%26startIdx%3D6%26endIdx%3D7%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D186399%2F66037%2F635592%2F255671%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400104514%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400104514",
+                                "lat": "59.305703",
+                                "lon": "18.025601",
+                                "name": "Årstadal",
+                                "routeIdx": "6",
+                                "time": "11:24",
+                                "track": "2",
+                                "type": "ST"
+                            },
+                            "dir": "Sickla udde",
+                            "idx": "1",
+                            "line": "22",
+                            "name": "Tvärbanan 22",
+                            "type": "TRAM"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400105135",
+                                "lat": "59.299339",
+                                "lon": "18.027570",
+                                "name": "Årstaberg",
+                                "time": "11:30",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALKLINK%26startx%3D18029988%26starty%3D59299024%26endx%3D18027570%26endy%3D59299339%26dt%3D2017-02-05T11%3A27%26h%3D20dd46b483e7c4c8799e0c27fab2c37e%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400104512",
+                                "lat": "59.299024",
+                                "lon": "18.029988",
+                                "name": "Årstaberg",
+                                "time": "11:27",
+                                "type": "ST"
+                            },
+                            "dist": "142",
+                            "hide": "true",
+                            "idx": "2",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400105012",
+                                "lat": "59.329614",
+                                "lon": "18.057926",
+                                "name": "Stockholms central",
+                                "routeIdx": "3",
+                                "time": "11:37",
+                                "track": "15",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D277785%2F97609%2F81366%2F51916%2F74%26startIdx%3D1%26endIdx%3D3%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D277785%2F97609%2F81366%2F51916%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400105135%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400105135",
+                                "lat": "59.299339",
+                                "lon": "18.027570",
+                                "name": "Årstaberg",
+                                "routeIdx": "1",
+                                "time": "11:30",
+                                "track": "3",
+                                "type": "ST"
+                            },
+                            "dir": "Uppsala C",
+                            "idx": "3",
+                            "line": "38",
+                            "name": "pendeltåg 38",
+                            "type": "TRAIN"
+                        }
+                    ]
+                },
+                "PriceInfo": {
+                    "TariffRemark": {
+                        "$": "SL"
+                    },
+                    "TariffZones": {
+                        "$": "SL"
+                    }
+                },
+                "chg": "1",
+                "co2": "0.00",
+                "dur": "22"
+            },
+            {
+                "LegList": {
+                    "Leg": [
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400114131",
+                                "lat": "59.309919",
+                                "lon": "18.025745",
+                                "name": "Liljeholmen",
+                                "time": "11:28",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALK%26startx%3D18034905%26starty%3D59306027%26endx%3D18025745%26endy%3D59309919%26dt%3D2017-02-05T11%3A15%26h%3Da556df3091ba11c492b86ba3050ffebe%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "lat": "59.306027",
+                                "lon": "18.034905",
+                                "name": "Argångsgatan",
+                                "time": "11:15",
+                                "type": "ADR"
+                            },
+                            "dist": "995",
+                            "idx": "0",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400102601",
+                                "lat": "59.310737",
+                                "lon": "18.023183",
+                                "name": "Liljeholmen",
+                                "time": "11:30",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "type%3DWALKLINK%26startx%3D18025745%26starty%3D59309919%26endx%3D18023183%26endy%3D59310737%26dt%3D2017-02-05T11%3A28%26h%3D1c6b8f704a2adc10d6eb4fb5d8d593c1%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400114131",
+                                "lat": "59.309919",
+                                "lon": "18.025745",
+                                "name": "Liljeholmen",
+                                "time": "11:28",
+                                "type": "ST"
+                            },
+                            "dist": "172",
+                            "hide": "true",
+                            "idx": "1",
+                            "name": "Walk",
+                            "type": "WALK"
+                        },
+                        {
+                            "Destination": {
+                                "date": "2017-02-05",
+                                "id": "400101051",
+                                "lat": "59.331358",
+                                "lon": "18.061477",
+                                "name": "T-Centralen",
+                                "routeIdx": "9",
+                                "time": "11:40",
+                                "track": "3",
+                                "type": "ST"
+                            },
+                            "GeometryRef": {
+                                "ref": "ref%3D277671%2F94887%2F375008%2F94951%2F74%26startIdx%3D3%26endIdx%3D9%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "JourneyDetailRef": {
+                                "ref": "ref%3D277671%2F94887%2F375008%2F94951%2F74%3Fdate%3D2017-02-05%26station_evaId%3D400102601%26station_type%3Ddep%26lang%3Dsv%26format%3Djson%26"
+                            },
+                            "Origin": {
+                                "date": "2017-02-05",
+                                "id": "400102601",
+                                "lat": "59.310737",
+                                "lon": "18.023183",
+                                "name": "Liljeholmen",
+                                "routeIdx": "3",
+                                "time": "11:30",
+                                "track": "1",
+                                "type": "ST"
+                            },
+                            "RTUMessages": {
+                                "RTUMessage": {
+                                    "$": "Nybohovs hissen vid station Liljeholmen är ur funktion. Bussar ersätter från hållplats U vid Liljeholmstorget."
+                                }
+                            },
+                            "dir": "Mörby centrum",
+                            "idx": "2",
+                            "line": "14",
+                            "name": "tunnelbanans röda linje 14",
+                            "type": "METRO"
+                        }
+                    ]
+                },
+                "PriceInfo": {
+                    "TariffRemark": {
+                        "$": "SL"
+                    },
+                    "TariffZones": {
+                        "$": "SL"
+                    }
+                },
+                "chg": "0",
+                "co2": "0.00",
+                "dur": "25"
+            }
+        ],
+        "noNamespaceSchemaLocation": "hafasRestTrip.xsd"
+    }
+}

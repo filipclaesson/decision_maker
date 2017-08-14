@@ -1,0 +1,27 @@
+
+<link rel="stylesheet" type="text/css" href="/source/ng-file-upload-style.css">
+<div class="container" ng-controller="csvUploadController">
+<!--<div class="container" ng-init="initiateApp(); ng-init="initiateLeaflet(); " ng-controller="AptsController">-->
+	<div class="page-header" id="banner">
+		<div class ="row">
+			<h1 id='top_header'>Get Apartments data</h1>
+			<!--<form method="get" ng-click='getTrafik();'>
+				<button class="btn btn-primary btn-large" type="submit">Get Departures</button>
+			</form>-->
+			<div class="col-md-6">
+				<div class="col-md-6">
+					<form class="col-md-2" method="get" ng-click='read_csv();'>
+						<button class="btn btn-primary btn-large" type="submit">Send to kafka</button>
+					</form>
+				</div>
+			</div>
+			<form ng-controller="csvUploadController" name="form">
+			  <button class="upload-button btn btn-primary" ngf-select="upload($file)">Upload on file select</button>
+			</form>
+
+
+		</div>
+	</div>
+	
+</div>
+

@@ -1,0 +1,64 @@
+<!DOCTYPE>
+	<html ng-app="myApp">
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+		<link rel="stylesheet" type="text/css" href="/views/style.css">
+		<link rel="stylesheet" href="source/isteven-multi-select.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.css"/>
+
+		<title> Filles sida </title>
+	</head>
+	<body>
+	<!-- ========== Navbar Börjar ============ -->
+    
+    <div class="navbar navbar-default navbar-fixed-top">
+		<div class="container" >
+			<div class="navbar-header">
+				<a href="../#/" class="navbar-brand">Hem</a>
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar-main">
+				<ul class="nav navbar-nav">
+				
+				<li>
+					<a href="/#/csv_reader">Read CSV</a>
+				</li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a></a></li>
+				</ul>
+			</div>
+		</div>
+    </div>
+    <!-- ========== Navbar slutar ============ -->
+    <div class="container" ng-app="myApp" ng-controller="CoreController">
+		<div ng-view></div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.js"></script>
+	<script src="source/isteven-multi-select.js"></script> 
+	<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/5.8.7/rzslider.min.js"></script>
+	<script src="source/heatmap.js"></script>
+	<script src="source/leaflet-heatmap.js"></script>	
+	<script src="source/ng-file-upload-shim.min.js"></script>
+	<script src="source/ng-file-upload.min.js"></script>
+
+	<script src="controllers/core_controller.js"></script>
+	<script src="controllers/csvReaderController.js"></script>
+
+	
+
+	</body>
+
+	</html>

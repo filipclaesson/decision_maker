@@ -1,0 +1,129 @@
+
+
+<div class="container" ng-controller="AptsController"  >
+<!--<div class="container" ng-init="initiateApp(); ng-init="initiateLeaflet(); " ng-controller="AptsController">-->
+	<div class="page-header" id="banner">
+		<div class ="row">
+			<h1 id='top_header' ng-controller="AptsController">Sthlm Real Estate Prices</h1>
+			<!--<form method="get" ng-click='getTrafik();'>
+				<button class="btn btn-primary btn-large" type="submit">Get Departures</button>
+			</form>-->
+			<div class="col-md-12">
+				<div class="col-md-6">
+					<div class ="row">		
+						<div class="col-md-6" >
+							<p> Step1: Get variables </p>
+							<div     
+							    isteven-multi-select
+							    input-model="analysis"
+							    output-model="analysisVars"
+							    button-label="icon name"
+							    item-label="icon name maker"
+							    tick-property="ticked"
+							></div>
+						</div>
+						<div class="col-md-6" >
+							<p> step2: Split by </p>
+							<div     
+							    isteven-multi-select
+							    input-model="variables"
+							    output-model="selectVars"
+							    button-label="icon name"
+							    item-label="icon name maker"
+							    tick-property="ticked"
+							></div>
+						</div>
+					</div>
+					<div class ="row top-buffer">
+						
+						<div class="col-md-6"  >
+							<p> Step3: Choose date (only showing sold appartmetns after this date)</p>
+							<rzslider rz-slider-model="slider.value"
+          								rz-slider-options="slider.options"></rzslider>
+							<!--<div class="col-md-6">
+								<p>year is</p>
+								<select ng-model="whereOption"> 
+									<option value="option-1">greater</option>
+										<option value="option-2">less</option>
+								</select>
+							</div>
+							<div class="col-md-6">
+								<p> than </p>
+								<select ng-model="whereYear"> 
+									<option value="2011">2011</option>
+									<option value="2012">2012</option>
+									<option value="2013">2013</option>
+									<option value="2014">2014</option>
+									<option value="2015">2015</option>
+									<option value="2016">2016</option>
+								</select>
+							</div>
+						-->
+						</div>
+						<div class="col-md-6" >
+							<p>Step4: Choose Metros</p>
+				    		<div     
+							    isteven-multi-select
+							    input-model="metroOption"
+							    output-model="whereMetro"
+							    button-label="icon name"
+							    item-label="icon name maker"
+							    tick-property="ticked"
+							></div>
+						</div>
+					</div>
+					<div class ="row top-buffer"  >
+						<div class="col-md-6" ng-click='updateOrderBy()'>
+							<p>Step5: Order desc by columns</p>
+				    		<div     
+							    isteven-multi-select
+							    input-model="orderOptions"
+							    output-model="orderBy"
+							    button-label="icon name"
+							    item-label="icon name maker"
+							    tick-property="ticked"
+							></div>
+						</div>
+					</div>
+					<div class ="row">	
+						<div class="top-buffer col-md-12">
+							<form method="get" ng-click='getAutoQuery();'>
+								<button class="btn btn-primary btn-large" type="submit">Excecute Auto Query</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 left-buffer">
+						<div id='query_box'class="form-group col-md-12">
+					    	<label>Run a manual query</label>
+
+					    	<div class="form-group">
+					    		<textarea ng-model="manual_query" rows='5' class="col-md-4 form-control" ></textarea>
+					    	</div>
+					  	</div>
+					  	
+					  	<div class="col-md-12">
+
+							<form class="col-md-2" method="get" ng-click='getApartments();'>
+								<button class="btn btn-primary btn-large" type="submit">Excecute Manual Query</button>
+							</form>
+						</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+			<h2> Results </h2>
+			<table class="table table-striped">
+				<tr class="tableHeader">
+					<th class="col-md-1" ng-repeat="th in query_keys">{{th}}</th>
+				</tr>
+				<tr ng-repeat="x in query_data">
+					<td ng-repeat="th in query_keys">
+						{{ x[th]}}
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+</div>
+

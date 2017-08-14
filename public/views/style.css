@@ -1,0 +1,20 @@
+body{
+    background-color: #fff;
+}
+
+#mapid { 
+	height: 80%;
+	width: 100%;
+}
+
+
+
+#top_header {
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.top-buffer { margin-top:20px; }
+.bottom-buffer { margin-bottom:20px; }
+
+.left-buffer { padding-left:20px; }
